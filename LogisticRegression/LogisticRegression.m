@@ -1,7 +1,7 @@
 %% ================== Initialization ==================
 clear; close all; clc
 
-data = load('data.txt');
+data = load('../data.txt');
 X = data(:, [1, 2]); y = data(:, 3);
 [m, n] = size(X);
 

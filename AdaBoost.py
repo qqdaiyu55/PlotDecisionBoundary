@@ -20,8 +20,6 @@ plot_colors = "br"
 plot_step = 0.2
 class_names = "AB"
 
-# plt.figure(figsize=(10, 5))
-
 # plot the decision boundary
 x_min, x_max = X[:, 0].min() - 1, X[:, 0].max() + 1
 y_min, y_max = X[:, 1].min() - 1, X[:, 1].max() + 1
